@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="June.Tools">
+      <HintPath>..\..\June.Tools\June.Tools\bin\Debug\netstandard2.0\June.Tools.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

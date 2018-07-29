@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:June.UpcItemDB.App"
+             x:Class="June.UpcItemDB.App.MainPage">
+    <StackLayout>
+        <Label Text="UpcItemDB.com product lookup demo app"/>
+        <Label x:Name="Title" />
+        <Label x:Name="Description" />
+        <Label x:Name="Brand" />
+        <Label x:Name="Model" />
+        <Label x:Name="Color" />
+        <Label x:Name="Size" />
+        <Label x:Name="Dimension" />
+        <Label x:Name="Weight" />
+        <Label x:Name="Currency" />
+        <Label x:Name="PriceRange" />
+        <Image x:Name="Image"/>
+
+        <Button x:Name="ScanButton" Text="Scan" Clicked="ScanButton_Clicked" />
+    </StackLayout>
+
+</ContentPage>
